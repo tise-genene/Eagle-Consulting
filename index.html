@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Eagle Consulting PLC</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        new WOW().init();
+    </script>
+    
+		<script>
+
+			$(function() {
+  				$('a[href*=#]:not([href=#])').click(function() {
+    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      					var target = $(this.hash);
+      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      					if (target.length) {
+        					$('html,body').animate({
+          						scrollTop: target.offset().top
+        					}, 1000);
+        				return false;
+      					}
+    				}
+  				});
+			});
+		
+		</script>
+
+        <style>
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                }
+
+        </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar-default" style="border-radius:0;"  id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="font-family: 'Playball', cursive; font-size: 28px; color: #fff; font-weight:bolder;">Eagle Consulting</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOME</a>
+                        </li>
+                        <li><a href="#content">ABOUT US</a>
+                        </li>
+                        <li><a href="#content3">SERVICES</a>
+                        </li>
+                        <li><a href="#content6">PORTFOLIO</a>
+                        </li>
+                        <li><a href="#content7">TESTMONIALS</a>
+                        </li>
+                        <li><a href="#footer">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <style>
+            .navbar-default {
+                background: transparent;
+            }
+            .navbar-default .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .navbar-sticky {
+                background:hsl(194, 96%, 47%);
+            }
+            .navbar-sticky .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+
+        </style>
+
+    </header>
+
+    <div class="banner">
+        <div class="opacity_overlay">
+            <div class="info">
+                <h2>Eagle Tech and Business Consultancy</h2>
+                <br>
+                <h3 style="color:hsl(194, 96%, 47%)";>Transforming Ideas into Reality, Elevating Businesses!</h3>
+                <br>
+                <a href="#content"><button type="button" id="proceed">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="content">
+        <div class="container">
+            <h2 style="color: hsl(194, 96%, 47%);">Who We Are</h2>
+            <h3 style="color:hsl(194, 96%, 47%)";>Meet Our Team: Driving Your Success Forward</h3>
+
+            <div class="boxes">
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="wow flipInX" style="color: hsl(194, 96%, 47%);"><i class="fa fa-fw fa-check"></i>Innovation Architects</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>Embark on a transformative journey with Eagle Consulting, where innovation meets excellence. Discover how our
+                            collaborative approach and unwavering commitment to quality redefine industry standards and drive businesses towards
+                            success</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="wow flipInX" style="color: hsl(194, 96%, 47%);"><i class="fa fa-fw fa-gift"></i>Visionaries in Action</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>Join Concerted forces with Eagle Consulting, where vision becomes reality. Experience firsthand the power of strategic insights
+                            and cutting-edge solutions as we propel businesses forward and shape a brighter future together. Go beyond with bright eagle!</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="wow flipInX" style="color: hsl(194, 96%, 47%);"><i class="fa fa-fw fa-compass"></i>Empowering Success</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>At Eagle Consulting, success is more than a goal—it's a journey. With a passionate team dedicated to empowerment and
+                            excellence, we're here to guide businesses towards their fullest potential. Explore the possibilities and unleash the
+                            power of success with us."</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="content2">
+    	<div class="opacity_overlay">
+    		<div class="container-fluid" style="padding: 0;">
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-edit glyphicon-lg"></span>
+    					<h3 style="color:hsl(194, 96%, 47%)";>Software Development Team</h3>
+    					<hr>
+    					<p style="font-style: italic;">Our Software Development Team comprises highly skilled engineers, architects, and developers dedicated to creating
+                        innovative and scalable software solutions. From frontend design to backend development, this team leverages
+                        cutting-edge technologies and best practices to deliver customized applications tailored to meet the unique needs of our
+                        clients</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-compressed glyphicon-lg"></span>
+    					<h3 style="color:hsl(194, 96%, 47%)";>Research and Consulting Team</h3>
+    					<hr>
+    					<p style="font-style: italic;">The Research and Consulting Team is a multidisciplinary group of analysts, strategists, and subject matter experts
+                        committed to delivering actionable insights and strategic guidance. Through rigorous research methodologies and in-depth
+                        analysis, this team provides valuable recommendations and solutions to help clients navigate complex challenges and
+                        capitalize on emerging opportunities.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-camera glyphicon-lg"></span>
+    					<h3 style="color:hsl(194, 96%, 47%)";>Business Process Optimization Team</h3>
+    					<hr>
+    					<p style="font-style: italic;">Our Business Process Optimization Team specializes in streamlining workflows, improving efficiency, and maximizing
+                        operational performance. With expertise in process analysis, workflow design, and performance metrics, this team
+                        collaborates closely with clients to identify bottlenecks, implement best practices, and drive sustainable improvements
+                        across all aspects of the business.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="feature-item text-center">
+    					<span class="glyphicon glyphicon-modal-window glyphicon-lg"></span>
+    					<h3 style="color:hsl(194, 96%, 47%)";>Customer Experience and Engagement Team</h3>
+    					<hr>
+    					<p style="font-style: italic;">The Customer Experience and Engagement Team focuses on building strong relationships, enhancing customer satisfaction,
+                        and driving brand loyalty. Through personalized interactions and strategic initiatives, this team ensures that every
+                        touchpoint with our clients is positive, memorable, and aligned with their needs and expectations.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section id="content3">
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+           				<h2 style="color:hsl(194, 96%, 47%)";>Our Services</h2>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-6">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-home glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>Technology Strategy and Planning</h3>
+                            <p>
+                                Crafting comprehensive strategies to align technology initiatives with business objectives.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-primary clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-envelope glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>Business Process Optimization</h3>
+                            <p>
+                                Streamlining workflows and enhancing efficiency through process analysis and improvement.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-success clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-user glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>Software Development and Custom Solutions</h3>
+                            <p>
+                                Designing and implementing tailored software solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blockquote-box blockquote-info clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-info-sign glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>Digital Marketing and Brand Strategy</h3>
+                            <p>
+                                Developing strategic plans to enhance online visibility and engage target audiences.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-warning clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-signal glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>IT Security and Compliance</h3>
+                            <p>
+                                Protecting digital assets and ensuring regulatory compliance through robust cybersecurity measures.
+                            </p>
+                        </div>
+                        <div class="blockquote-box blockquote-danger clearfix">
+                            <div class="square pull-left">
+                                <span class="glyphicon glyphicon-globe glyphicon-lg"></span>
+                            </div>
+                            <h3 style="color:hsl(194, 96%, 47%)";>Data Analytics and Business Intelligence</h3>
+                            <p>
+                                Extracting actionable insights from data to drive informed decision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="content4">
+    	<div class="container">
+    		<h3 style="color:hsl(194, 96%, 47%)";>Why Choose Us?</h3>
+    		<hr>
+    		<div class="product-info">
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Eagle Consulting</h5>
+    					<h4 style="color:hsl(194, 96%, 47%)";>Exceptional Service</h4>
+    					<hr>
+    					<p>We pride ourselves on providing exceptional service and support to our clients throughout every step of the process.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Eagle Consulting</h5>
+    					<h4 style="color:hsl(194, 96%, 47%)";>Customized Solutions</h4>
+    					<hr>
+    					<p>We understand that every client is unique, which is why we offer customized solutions tailored to your specific needs
+                        and goals.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h5>Eagle Consulting</h5>
+    					<h4 style="color:hsl(194, 96%, 47%)";>Dedicated Team </h4>
+    					<hr>
+    					<p>Our team of experienced professionals is dedicated to delivering results and exceeding client expectations.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+        <hr>
+    
+    
+    <section id="content6">
+    	<div class="container">
+            <h2 style="color:hsl(194, 96%, 47%)";>Explore Our Portfolio</h2>
+                <hr>
+            <h3>Discover our portfolio, a testament to our expertise and commitment to delivering exceptional results</h3>
+            
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/971.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery2.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery3.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery4.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/gallery5.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/images.jpeg" class="img-responsive">
+			</div>
+    	</div>
+    </section>
+    
+    <section id="content7">
+    	<div class="conatiner-fluid" style="padding: 0;">
+    		<h2>Are you ready for the ultimate upgrade?</h2>
+    	</div>
+    </section>
+    
+    
+    <hr>
+    
+	<section id="content9">
+    	<div id="carousel">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-8 col-md-offset-2">
+                    	<div class="quote"><i class="fa fa-quote-left fa-4x"></i>
+                    	</div>
+                    	<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        	<!-- Carousel indicators -->
+                        	<ol class="carousel-indicators">
+                            	<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        	</ol>
+                        	<!-- Carousel items -->
+                        	<div class="carousel-inner">
+                            	<div class="active item">
+                                	<blockquote>
+                                    	<p>I can't say enough good things about Eagle Consulting. Their team went above and beyond to understand our needs and
+                                        deliver outstanding results. Their expertise and dedication helped us achieve
+                                        our goals faster than we ever imagined. Highly recommended!</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>I was impressed by the level of personalized service I received from Eagle Consulting. They took the time to listen
+                                        to my concerns and tailored their solutions to meet my specific needs. I couldn't be happier with the results!"</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color:  rgba(0, 0, 0, 0.2)";></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>From start to finish, Eagle Consulting exceeded our expectations. Their expertise in Business and Software Development
+                                        was evident, and their commitment to client satisfaction was unmatched. We're grateful for their partnership."</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>At Eagle Consultancy, we stand at the forefront of Ethiopia's burgeoning tech and business landscape, driven by a
+                profound commitment to catalyze innovation and growth within our vibrant community. Founded on the principles of
+                integrity, expertise, and collaboration, our journey is deeply rooted in the rich tapestry of Ethiopian
+                entrepreneurship.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							Addis Ababa, Ethiopia
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							+251914731746
+						</p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            +251932508910
+                        </p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							support@eagleconsult.com
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Newsletter</h3>
+				<hr>
+				<p>Subscribe to our newsletter to get the latest updates</p>
+				<input type="email" placeholder="Enter Your Email address..." required>
+			</div>
+		</div>
+	</footer>
+	
+	<div id="copyright-part">
+		<p>&copy<span style="font-weight: bolder;">Eagle Consultancy</span></p>
+	</div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.add("navbar-sticky")
+            navbar.classList.remove("navbar-default")
+          } else {
+            navbar.classList.remove("sticky")
+          }
+        }
+        </script>
+</body>
+
+</html>
